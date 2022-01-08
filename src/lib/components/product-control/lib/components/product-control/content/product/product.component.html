@@ -1,0 +1,11 @@
+<button
+  class="container"
+  [ngClass]="{ active: productControlValue.value.id === product.id}"
+  (click)="selectProduct.select(product)"
+  [disabled]="disabled"
+>
+  <div class="name">{{product.name}}</div>
+  <span class="tooltip" attr.data-tooltip="{{product.description}}">
+    <i class="fas fa-question"></i>
+  </span>
+</button>

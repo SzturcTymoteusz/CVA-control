@@ -1,0 +1,17 @@
+<div class="container" [formGroup]="appForm.get()">
+  <app-product-control
+    [label]="formConfiguration.drinks.label"
+    [initialOpenState]="appForm.drinks.value === null"
+    [products]="formConfiguration.drinks.products"
+    [formControl]="appForm.drinks"
+    ngDefaultControl
+  ></app-product-control>
+
+  <app-product-control
+    [label]="formConfiguration.snacks.label"
+    [initialOpenState]="appForm.snacks.value === null"
+    [products]="formConfiguration.snacks.products"
+    [formControl]="appForm.snacks"
+    ngDefaultControl
+  ></app-product-control>
+</div>

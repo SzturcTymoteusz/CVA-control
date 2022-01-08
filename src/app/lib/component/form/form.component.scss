@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 24px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  app-product-control {
+    margin: 12px 0;
+  }
+}

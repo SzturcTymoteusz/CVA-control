@@ -16,5 +16,8 @@ export class FormComponent implements OnInit {
     this.appForm.drinks.valueChanges.subscribe(value => {
       console.log(value);
     })
+    this.appForm.snacks.valueChanges.subscribe(value => {
+      console.log(value);
+    })
   }
 }

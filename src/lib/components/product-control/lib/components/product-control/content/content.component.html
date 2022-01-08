@@ -1,0 +1,5 @@
+<div class="container" [ngClass]="{'close': (panelState.openState | async) === false }">
+  <ng-container *ngFor="let product of products">
+    <app-product [product]="product" [disabled]="disabled"></app-product>
+  </ng-container>
+</div>

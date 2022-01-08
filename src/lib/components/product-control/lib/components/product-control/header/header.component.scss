@@ -1,0 +1,17 @@
+.container {
+  background-color: #e5e5e5;
+  border-bottom: 1px solid #a7a7a7;
+  padding: 12px 24px;
+  font-size: 24px;
+  color: #7f7f7f;
+  font-family: "sans-serif";
+  display: flex;
+
+  .title {
+    flex-grow: 1;
+  }
+
+  .arrow:hover {
+    cursor: pointer;
+  }
+}

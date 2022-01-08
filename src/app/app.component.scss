@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  app-form {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 24px;
+  }
+}

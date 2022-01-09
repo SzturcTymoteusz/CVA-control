@@ -21,7 +21,7 @@ To run this project locally, download it first.
 
 ```
 $ npm install
-$ npm serve
+$ npm start
 ```
 
 Also you can see the application at the link:

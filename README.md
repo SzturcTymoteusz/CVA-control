@@ -16,7 +16,7 @@ This project is a fully functional custom form control, compatible with template
 
 ## Setup
 
-You must already have it installed npm
+You must already have it installed npm.
 To run this project locally, download it first. 
 
 ```
